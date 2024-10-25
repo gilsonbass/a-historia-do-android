@@ -9,13 +9,17 @@ Paletas de cores do site
 #2FBE6D
 
 */
+/*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face{
     font-family: 'Android';
     src: url('../fontes/idroid.otf');
     font-weight: normal;
 }
+/* Global*/
+*{margin: 0px;padding: 0px;}
 
+/* variavel de cores*/
 :root{
      --cor0:   #10CB61;
      --cor1:   #3D9362;
@@ -28,7 +32,7 @@ Paletas de cores do site
      --fonte-destaque: 'Bebas Neue';
      --fonte-android: 'Android', 'cursive';
 }
-
+/*Principal*/
 body{
     background-color:#50b97e;
     font-family: var(--fonte-padrao);
@@ -37,7 +41,7 @@ header{background-color:var(--cor5);}
 nav{background-color: var(--cor2);}
 main{background-color: #ffffff;}
 header > h1 {
-    color: #2E3E35;
+    color: #ffffff;
     font-family: var(--fonte-destaque);
 }
 main h1{
